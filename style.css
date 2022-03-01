@@ -24,7 +24,7 @@ h2 {
 img.avatar {
   width: auto;
   float: right;
-  vertical-align: text-top;
+  vertical-align: top;
   display: inline;
   margin-left: 100px;
 }
