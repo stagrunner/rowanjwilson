@@ -1,27 +1,68 @@
----
-layout: default
-title: Home
----
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Josh Wardle - Artist, Product Manager, Engineer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio site for Josh Wardle." />
+    <link href="style.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div id="content">
+      <img class="logo" src="logo.svg" alt="logo" />
 
-{% include intro.html %}
+      <h1>Hi, I'm Josh.</h1>
+      <h2>I enjoy building unique products that focus on human interaction.</h2>
 
-<section class="post-list">
-  <div class="container">
-    {% for post in site.posts %}
-      {% unless post.next %}
-        <h2 class="category-title">{{ post.date | date: '%Y' }}</h2>
-      {% else %}
-        {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-        {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-        {% if year != nyear %}
-          <h2 class="category-title">{{ post.date | date: '%Y' }}</h2>
-        {% endif %}
-      {% endunless %}
-      <article class="post-item">
-        <span class="post-meta date-label">{{ post.date | date: "%b %d" }}</span>
-        <div class="article-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a></div>
-      </article>
-    {% endfor %}
-  </div>
+      <h3>Things about me</h3>
+      <ul>
+        <li>I am an artist, product manager and engineer.</li>
+        <li>I live in <span class="strike">Oakland, CA</span> Brooklyn, NY.</li>
+        <li>
+          On the internet, I often go by
+          <span class="username"
+            ><a href="https://soundcloud.com/powerlanguage/bogasm"
+              >powerlanguage</a
+            ></span
+          >.
+        </li>
+        <li>
+          You may have heard of two projects I created at Reddit:
+          <a
+            href="https://www.nbcnews.com/tech/internet/reddit-button-n357841"
+            class="art-title"
+            >The Button (2015)</a
+          >
+          and
+          <a
+            href="http://www.newsweek.com/reddit-place-internet-experiment-579049"
+            class="art-title"
+            >Place (2017)</a
+          >.
+        </li>
+        <li><a href="https://www.powerlanguage.co.uk/wordle/">Wordle</a> is daily word guessing game I made.</li>
+      </ul>
 
-</section>
+      <h3>A talk I gave about creative projects</h3>
+      <div class="video">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/OXzfvYoFQFo?controls=0"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <h3>More things about me</h3>
+      <ul>
+        <li><a href="https://github.com/powerlanguage">Github</a></li>
+        <li><a href="https://twitter.com/powerlanguish">Twitter</a></li>
+        <li><a href="https://www.linkedin.com/in/joshwardle/">LinkedIn</a></li>
+        <li><a href="https://www.reddit.com/user/powerlanguage">Reddit</a></li>
+        <li><a href="/cdn-cgi/l/email-protection#204a4f534860504f5745524c414e47554147450e434f0e554b">Email</a></li>
+      </ul>
+    </div>
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>
