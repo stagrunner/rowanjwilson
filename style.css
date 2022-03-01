@@ -1,10 +1,11 @@
 body {
   font-family: "Helvetica Neue", Helvetica;
   -webkit-font-smoothing: antialiased;
-  line-height: 1.4rem;
+  line-height: 1.5rem;
   margin: 0 auto;
   max-width: 768px;
-  color: #222;
+  color: #f0f0f0;
+  background-color: #0f0f0f
 }
 
 #content {
@@ -26,10 +27,6 @@ img.logo {
 
 .strike {
     text-decoration: line-through;
-}
-
-.art-title {
-  font-style: italic;
 }
 
 .username {
