@@ -55,7 +55,7 @@ hr {
 }
 
 .link {
-  color: #30622f;
+  color: #9bbb0e;
   padding-bottom: .05em;
 
   @include transition(border 300ms linear);
@@ -69,7 +69,7 @@ hr {
 }
 
 .site-header {
-  border-bottom: 1px solid darken(#9f3a65, 5%);
+  border-bottom: 1px solid darken($base-border-color, 5%);
   margin-bottom: $small-spacing;
   min-height: 80px;
 }
@@ -95,7 +95,7 @@ hr {
   margin: 0 0 1em 0;
   cursor: pointer;
   letter-spacing: 0.8px;
-  color: #9bbb0e;
+  color: $white-color;
   font-size: 20px;
   line-height: 28px;
   font-weight: 300;
@@ -289,7 +289,7 @@ hr {
     &:focus,
     &:active {
       border-bottom: 2px solid transparent;
-      color: #9bbb0e;
+      color: #8aac0f;
     }
   }
 }
