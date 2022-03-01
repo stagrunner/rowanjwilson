@@ -23,7 +23,7 @@ h2 {
 
 img.avatar {
   width: auto;
-  float: right;
+  float: top,right;
   display: inline;
   margin-left: 100px;
 }
