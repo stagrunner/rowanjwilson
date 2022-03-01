@@ -69,7 +69,7 @@ hr {
 }
 
 .site-header {
-  border-bottom: 1px solid darken($base-border-color, 5%);
+  border-bottom: 1px solid darken(#9f3a65, 5%);
   margin-bottom: $small-spacing;
   min-height: 80px;
 }
@@ -289,7 +289,7 @@ hr {
     &:focus,
     &:active {
       border-bottom: 2px solid transparent;
-      color: #30622f;
+      color: #9bbb0e;
     }
   }
 }
