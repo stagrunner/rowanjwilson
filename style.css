@@ -21,8 +21,10 @@ h2 {
   line-height: 2rem;
 }
 
-img.logo {
+img.avatar {
   width: auto;
+  display: inline;
+  margin-left: 100px;
 }
 
 
