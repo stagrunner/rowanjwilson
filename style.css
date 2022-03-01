@@ -1,5 +1,5 @@
 body {
-  font-family: "Helvetica Neue", Helvetica;
+  font-family: monospace, monospace;
   -webkit-font-smoothing: antialiased;
   line-height: 1.5rem;
   margin: 0 auto;
@@ -25,41 +25,8 @@ img.logo {
   width: 4rem;
 }
 
-.strike {
-    text-decoration: line-through;
-}
-
-.username {
-  padding: 0.2rem;
-  background-color: #f1f1f1;
-  font-family: monospace, monospace;
-  line-height: 1rem;
-}
-
-.username a,
-.username a:visited {
-  color: #222;
-  text-decoration: none;
-}
-
-.username a:hover {
-  text-decoration: underline;
-}
 
 a,
 a:visited {
-  color: #009a64;
-}
-@media only screen and (max-device-width: 480px) {
-  h1 {
-    font-size: 3rem;
-  }
-  .username {
-    background-color: initial;
-  }
-}
-
-.video {
-  display: flex;
-  justify-content: center;
+  color: #db5d17;
 }
