@@ -26,10 +26,10 @@ h2 {
 
 img.avatar {
   width: auto;
+  float: right;
   padding: 20px;
   margin: 20px;
   position: fixed;
-  float: right;
   vertical-align: top;
   display: inline;
 }
