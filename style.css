@@ -21,10 +21,12 @@ h1 {
 h1,
 h2 {
   line-height: 2rem;
+  display: inline;
 }
 
 img.avatar {
   width: auto;
+  float: right;
   vertical-align: top;
   display: inline;
   margin: 50px;
