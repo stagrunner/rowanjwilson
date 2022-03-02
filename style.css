@@ -29,8 +29,7 @@ img.avatar {
   float: right;
   padding: 20px;
   margin: 20px;
-  position: fixed;
-  vertical-align: top;
+  position: relative;
   display: inline;
 }
 
