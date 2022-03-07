@@ -15,14 +15,14 @@ body {
 
 h1 {
   font-size: 3rem;
-  font-weight: 300;
+  font-weight: 600;
   line-height: auto;
   margin: auto;
 }
 
-h1,
 h2 {
   line-height: 2rem;
+  font-weight: 200;
 }
 
 img.avatar {
