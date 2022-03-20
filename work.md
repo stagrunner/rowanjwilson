@@ -1,7 +1,7 @@
 ---
 layout: work
-title: Work
-slug: /work
+title: Projects
+slug: /projects
 items:
  - title: Super Glitter Disco Party Hell [HELL]
   image:
