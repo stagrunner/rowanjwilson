@@ -1,6 +1,6 @@
 ---
 layout: work
-title: Work
+title: WORK
 slug: /work
 items:
   - title: Super Glitter Disco Party Hell
