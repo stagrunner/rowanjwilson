@@ -11,10 +11,10 @@ google_analytics: ""
 
 header:
   pages:
-    - name: HOME
+    - name: home
       slug: /
-    - name: WORK
-    - name: BLOG
+    - name: work
+    - name: blog
 
 footer:
   show_powered_by: false
