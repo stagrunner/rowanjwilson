@@ -5,10 +5,4 @@ profile_picture:
   alt: website picture
 ---
 
-<p>
-  Welcome! This site serves as an example for the Bay Jekyll theme. Bay is a very simple and minimal theme, directly inspired by Dan Grover's <a href="http://dangrover.com">website</a>.
-</p>
-
-<p>
-  You can find the source code and the instructions on <a href="https://github.com/eliottvincent/bay">GitHub</a>.
-</p>
+Rowan "Stag" Wilson is a content creator, hobbyist illustrator and troublemaker from the Central New York area. He has been managing online communities (and their social media!) for over a decade and loves to bring his expertise- and distinct sense of humour- into his work.
