@@ -7,8 +7,9 @@ profile:
 published: true
 ---
 
-[Gradfolio](https://github.com/jitinnair1/gradfolio){:target="_blank"} is a responsive, dark-mode ready Jekyll theme designed keeping academia in mind. The easiest way to install the theme is to fork it using GitHub. Check the README file for [instructions](https://github.com/jitinnair1/gradfolio#installation){:target="_blank"}.
 
-If you want to use this space to write your biography here, edit the `index.md` file. You can put a picture in, too. Rename your picture to `profile.png` and put it in the `assets/images/` folder.
+**Rowan "Stag" Wilson** is a digital artist, content creator, and community/social media manager in the Central New York area. He is a grizzled ancient of the digital age and boasts over a decade of experience in the creation/curation of online communities (and their social media!). He specializes in building presences in the gaming space and takes great pride in assisting in the creation of progressive, LGBT-centric spaces.
 
-The social-icons footer can be used to link profiles from GitHub, OrcID and ReasearchGate aprart form the usual Twitter, LinkedIn and Facebook. You can add your user ID in the `_config.yml` file to link your accounts.
+In addition to his auspicious work in community & social media management, Rowan boasts an affinity for digital art and web design. Though he's chosen to focus his career on the people *behind* web sites rather than the sites themselves, he still enjoys making time to tinker and create websites.
+
+Off the clock, Rowan is a dedicated dog dad & dungeon master. As with any child of the new millennium, he spends a fair amount of his time gaming... poorly. He also collects vintage cast iron, for some reason. Ask him about it!
