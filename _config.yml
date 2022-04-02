@@ -1,64 +1,65 @@
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+### your site title here
 
 title: Rowan Wilson
-description: >- # this means to ignore newlines until "baseurl:"
-  Rowan "Stag" Wilson is a gaming-oriented community & social media manager. He's also a digital artist and dog dad.
-baseurl: "/" # the subpath of the site
-url: "https://rowanjwilson.com" # the base hostname & protocol for the site
-og_image: /assets/img/profile-pic.jpg
-google_analytics: ""
+description: Community Manager | Social Media Manager | Digital Artist
 
-header:
-  pages:
-    - name: /home
-      slug: /
-    - name: /work
-    - name: /blog
+baseurl: / #name of GitHub repository
+url: "https://rowanjwilson.com" #custom url to be used instead of GitHub repository
+email: rowanjwilson@pm.me
 
-footer:
-  show_powered_by: false
-  contact:
-    - name: Email
-      value: rowanjwilson@pm.me
-      link: rowanjwilson@pm.me
-    - name: Discord
-      value: Stag#2355
-      link: "https://discordapp.com/users/114651040057393154"
-  follow:
-#    - name: Twitter
-#      link: http://twitter.com/YourTwitterUsername
-#      username: "@stagrunner"
-#    - name: Facebook
-#      link: http://facebook.com/YourFacebookUsername
-    - name: LinkedIn
-      link: http://linkedin.com/in/rowanjwilson
-#    - name: GitHub
-#      link: http://github.com/stagrunner
-#    - name: Dribbble
-#      link: https://dribbble.com/YourDribbbleUsername
-    - name: RSS
-      link: /feed.xml
 
-# Build settings
+highlighter: rouge
 markdown: kramdown
+
+# Pagination
+paginate: 4
+permalink: /blog/:year/:title/
+paginate_path: /blog/page:num/
+
+# Social media links in footer
+facebook: "#"
+twitter: "#"
+linkedin: "https://www.linkedin.com/in/rowanjwilson/"
+github: "#"
+researchgate: "#"
+orcid: "#"
+
+highlighter: rouge
+markdown: kramdown
+
+# Tracker
+analytics:
+
+#optimization -> compress.html
+compress_html:
+  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
+  comments: ["<!-- ", " -->"]
+  endings: [all]
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: []
+
+#collection
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
 sass:
-    style: :compressed
-plugins:
-  - jekyll-feed
+  sass_dir: /assets/css/_sass
+  style: compressed
 
-# Excluded items
+include:
+  - _pages
+
 exclude:
-  - .sass-cache/
-  - .jekyll-cache/
-  - feed.xml
-  - gemfiles/
-  - Gemfile
-  - Gemfile.lock
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+  - README.md
+  - LICENSE.md
 
-# Used for defeating caching
-version: 1
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-email-protect
+  - jekyll-target-blank
