@@ -17,7 +17,6 @@ permalink: /blog/:year/:title/
 paginate_path: /blog/page:num/
 
 # Social media links in footer
-facebook: "#"
 linkedin: "https://www.linkedin.com/in/rowanjwilson/"
 highlighter: rouge
 markdown: kramdown
