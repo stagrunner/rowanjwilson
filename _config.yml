@@ -1,10 +1,10 @@
 ### your site title here
 
-title: Rowan Wilson
-description: Community Manager | Social Media Manager | Digital Artist
+title: Your Name
+description: subtitle | affiliations | motto
 
-baseurl: "https://rowanjwilson.com" #name of GitHub repository
-url: "https://rowanjwilson.com" #custom url to be used instead of GitHub repository
+site: rowanjwilson.com #name of GitHub repository
+url: https://stagrunner.com #custom url to be used instead of GitHub repository
 email: rowanjwilson@pm.me
 
 
@@ -17,7 +17,13 @@ permalink: /blog/:year/:title/
 paginate_path: /blog/page:num/
 
 # Social media links in footer
+facebook: "#"
+twitter: "#"
 linkedin: "rowanjwilson"
+github: "#"
+researchgate: "#"
+orcid: "#"
+
 highlighter: rouge
 markdown: kramdown
 
