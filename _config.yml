@@ -3,8 +3,8 @@
 title: Rowan Wilson
 description: Community Manager | Social Media Manager | Digital Artist
 
-baseurl: / #name of GitHub repository
-url: https://stagrunner.com #custom url to be used instead of GitHub repository
+baseurl: "/" #name of GitHub repository
+url: https://rowanjwilson.com #custom url to be used instead of GitHub repository
 email: rowanjwilson@pm.me
 
 
