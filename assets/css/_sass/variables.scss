@@ -5,20 +5,20 @@ $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.7;
 
 $spacing-unit:     30px;
-$light-gray: gray;
-$text-color:       #333;
-$background-color: #fdfdfd;
-$brand-color:      #60c17d;
+$light-gray: 999999;
+$text-color:       #000000;
+$background-color: #ffffff;
+$brand-color:      #3b3e4e;
 
 // Color scheme for light
-$body-bg: #fdfdfd;
-$projectbox: #cfe6a4;
-$text-color: #333;
+$body-bg: #ffffff;
+$projectbox: #f3f3f3;
+$text-color: #000000;
 
 // Color scheme for dark modes
-$body-bg-dark: #061725;
-$projectbox-dark: lighten($body-bg-dark, 10%);
-$text-color-dark: #777;
+$body-bg-dark: #ffffff;
+$projectbox-dark: #f3f3f3;
+$text-color-dark: #000000;
 
 // Colour palette for project boxes
 $theme1: ("one",#388087),("two", #6FB3B8),("three",#BADFE7),("four",#C2EDCE),("five",#F6F6F2);
