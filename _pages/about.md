@@ -5,7 +5,7 @@ permalink: /about/
 published: true
 ---
 # Hey Howdy, I'm Rowan!
-<span style color="#999999">*(However, most folks online know me as "Stag!")*</span>
+<span style="color:"#999999">*(However, most folks online know me as "Stag!")*</span>
 ---
 ---
 *Don't have time for the whole song & dance? A static .pdf of my resume can be found [HERE](https://rowanjwilson.com/).*
