@@ -14,4 +14,4 @@ I've been shaping & stewarding online communities for over a decade- well before
 I'm not just passionate about community & social media management in gaming because I love games. I'm passionate about it because I love the developers and fans *behind* those games. I love taking social media & community platforms (such as Reddit, Twitter & Discord), crafting spaces, and turning those spaces alchemy-like into a place that bridges the gap between the people who make games and the people who love them.
 
 ---
-### "Those are a lot of words! But what skills do you actually have to back them?"
+## "Those are a lot of words! What skills do you have to back them?"
