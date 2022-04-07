@@ -27,7 +27,7 @@ I've been moderating online spaces for over a decade. I have an in-depth underst
 That said... I have experience with a variety of platforms' moderation toolkits, including but not limited to:
 </p>
 
-<ul style="font-size:14px">
+<ul style="font-size:14px; padding-left:25px">
   <li>Discord</li>
   <li>Twitch</li>
   <li>Reddit</li>
