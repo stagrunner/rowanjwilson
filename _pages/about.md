@@ -18,6 +18,7 @@ I'm not just passionate about community & social media management in gaming beca
 
 
 ### What I Do:
-| **MODERATION** |  |
-|---|---|
-| Lorem ipsum | ![mod](/assets/images/mod.gif) |
+
+| MODERATION |  | 
+|:--------:|:--------------------------:|
+| Lorem ipsum   | ![mod](/assets/images/mod.gif) |
