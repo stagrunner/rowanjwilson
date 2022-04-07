@@ -25,7 +25,7 @@ I'm not just passionate about community & social media management in gaming beca
 I've been moderating online spaces for over a decade. I have an in-depth understanding of how socialization in online communities works, as well as how to help ensure activity stays aligned with a space's tenets. A good community manager understands how to use platform moderation toolkits to keep members in line. A great community manager understands how to communicate effectively with their users <i>before</i> a situation necessitates using the banhammer.
 <br /><br />
 That said... I have experience with a variety of platforms' moderation toolkits, including but not limited to:
-<ul>
+<ul style="font size:14px">
   <li>Discord</li>
   <li>Twitch</li>
   <li>Reddit</li>
