@@ -5,7 +5,7 @@ permalink: /about/
 published: true
 ---
 # Hey Howdy, I'm Rowan!
-*^(However, ^most ^folks ^online ^know ^me ^as ^"Stag!")*
+*(However, most folks online know me as "Stag!")*
 
 ---
 
@@ -19,6 +19,6 @@ I'm not just passionate about community & social media management in gaming beca
 
 ### What I Do:
 
-| MODERATION |  | 
+| MODERATION |  |
 |:--------:|:--------------------------:|
 | Lorem ipsum   | ![mod](/assets/images/mod.gif) |
