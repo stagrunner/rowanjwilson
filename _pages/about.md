@@ -30,6 +30,6 @@ That said... I have experience with a variety of platforms' moderation toolkits,
   <li>Twitch</li>
   <li>Reddit</li>
   <li>Steam Community Forums</li>
-  <li>Professional Forum Software (IPB, vBulletin, Xenforo, etc.)<li>
+  <li>Professional Forum Software (IPB, vBulletin, Xenforo, etc.)</li>
 </ul>
 </p>
