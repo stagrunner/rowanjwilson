@@ -7,6 +7,8 @@ profile:
 published: true
 ---
 
+*Don't have time for the whole song & dance? A static .pdf of my resume can be found [HERE](https://rowanjwilson.com/).*
+
 **Rowan "Stag" Wilson** is a digital artist, content creator, and community/social media manager in the Central New York area. He is a grizzled ancient of the digital age and boasts over a decade of experience in the creation/curation of online communities (and their social media!). He specializes in building presences in the gaming space and takes great pride in assisting in the creation of progressive, LGBT-centric spaces.
 
 In addition to his auspicious work in community & social media management, Rowan boasts an affinity for digital art and web design. Though he's chosen to focus his career on the people *behind* web sites rather than the sites themselves, he still enjoys making time to tinker and create websites.
