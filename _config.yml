@@ -1,10 +1,10 @@
-title: Business Frontpage
-description: A business home page starter template for Bootstrap 4 featuring marketing boxes and a full width image header.
+title: Rowan Wilson
+description: Rowan "Stag" Wilson is a community manager, social media manager & digital artist based in Central NY.
 
 # disabled because we are using a custom domain
-#baseurl: /business-frontpage 
+#baseurl: /business-frontpage
 
-color-scheme: "mediumseagreen" # the scheme can be any HEX code like "#00aa55"
+color-scheme: "#4d535f" # the scheme can be any HEX code like "#00aa55"
 
 sass:
   sass_dir: /assets/css/_sass
