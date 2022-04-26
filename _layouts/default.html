@@ -1,24 +1,22 @@
+---
+---
+
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.langs[0] | default: "en" }}">
+<html lang="en">
+{% include head.html %}
 
-  {% include head.html %}
+<body>
+  {% include navigation.html %} {% include header.html %}
+  <!-- Page Content -->
+  <div class="container mb-5">
+    {{ content }}
+  </div>
+  <!-- /.container -->
+  {% include footer.html %}
 
-  <body>
-
-    {% include header.html %}
-
-    {% if page.layout == "post" %}
-    <main class="post-content" aria-label="Content">
-    {% else %}
-    <main class="page-content" aria-label="Content">
-    {% endif %}
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
-
-    {% include footer.html %}
-
-  </body>
+  <!-- Bootstrap core JavaScript -->
+  <script src="{{ site.baseurl }}/assets/vendor/jquery/jquery.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
 
 </html>

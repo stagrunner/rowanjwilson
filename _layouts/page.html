@@ -2,6 +2,9 @@
 layout: default
 ---
 
-<h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
-
-{{ content }}
+<div class="row">
+  <div class="col-md-8 mb-5">
+    {{ content }}
+  </div>
+  {% include sidebar.html %}
+</div>
