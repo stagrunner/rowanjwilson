@@ -4,7 +4,7 @@ description: Rowan "Stag" Wilson is a community manager, social media manager & 
 # disabled because we are using a custom domain
 #baseurl: /business-frontpage
 
-color-scheme: "#4d535f" # the scheme can be any HEX code like "#00aa55"
+color-scheme: "#16463f" # the scheme can be any HEX code like "#00aa55"
 
 sass:
   sass_dir: /assets/css/_sass
