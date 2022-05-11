@@ -244,7 +244,7 @@
 // White links against a dark background
 .navbar-dark {
   .navbar-brand {
-    color: #123832;
+    color: $navbar-dark-brand-color;
 
     @include hover-focus {
       color: $navbar-dark-brand-hover-color;
@@ -253,14 +253,14 @@
 
   .navbar-nav {
     .nav-link {
-      color: #fcfaf1;
+      color: $navbar-dark-color;
 
       @include hover-focus {
-        color: #ebb8c0;
+        color: $navbar-dark-hover-color;
       }
 
       &.disabled {
-        color: #d0ded5;
+        color: $navbar-dark-disabled-color;
       }
     }
 
@@ -268,7 +268,7 @@
     .active > .nav-link,
     .nav-link.show,
     .nav-link.active {
-      color: #fcfaf1;
+      color: $navbar-dark-active-color;
     }
   }
 
